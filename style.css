@@ -1,0 +1,63 @@
+.heading{
+    position: relative;
+    text-align: center;
+    color: honeydew;
+}
+header li{
+    list-style-type: none;
+    margin: 5px;
+    padding: 5px;
+    font-size: 20px;
+}
+.top-left{
+    position: absolute;
+    top: 8px;
+    left: -16px;
+    display: flex;
+    float: left;
+}
+
+.link{
+    text-decoration: none;
+}
+
+a:visited{
+    color: honeydew;
+}
+a:hover{
+    color: lightblue;
+}
+.top-right{
+    position: absolute;
+    top: 8px;
+    right: 16px;
+    display: flex;
+    float: right;
+}
+body section{
+    text-align: center;
+}
+.picture{
+    filter: blur(3px);
+}
+div p{
+    font-size: 12px;
+}
+.picture1{
+    float: right;
+}
+section img{
+    border: 1px solid white;
+    border-radius: 10%;
+}
+hr.solid {
+    border-top: 1px solid black;
+    border-bottom: black;
+}
+
+@media only screen and (max-width: 600px) {
+    .picture{
+        height: auto;
+        width: auto;
+    }
+}
